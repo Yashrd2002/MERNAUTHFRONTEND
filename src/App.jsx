@@ -4,7 +4,7 @@ import Routes from "./Routes";
 
 
 function App() {
-  axios.defaults.baseURL = "http://localhost:4000";
+  axios.defaults.baseURL = "https://mernauth-rn7m.onrender.com";
   axios.defaults.withCredentials = true;
 
   return (
